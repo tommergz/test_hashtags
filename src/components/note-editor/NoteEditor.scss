@@ -1,0 +1,133 @@
+.note-creator-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.note-creator {
+  position: relative;
+  background: white;
+  width: 80%;
+  height: 80%;
+  overflow: auto;
+}
+
+.close-block {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px 0;
+}
+
+.close {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.forms {
+  position: relative;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin: 10px 10px 0px 10px;
+  border: 1px solid black;
+}
+
+.note-button-wrapper {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+}
+
+.add-note-button {
+  width: -webkit-fill-available;
+  margin: 0px 10px;
+  border: 1px solid black;
+}
+
+.tag-form {
+  display: flex;
+  justify-content: center;
+}
+
+.tag-button {
+  margin: 10px 10px 0px 0px;
+  border: 1px solid black;
+}
+
+.tags {
+  border: 1px solid black;
+  height: 85px;
+  margin: 10px 10px 0;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.tag {
+  border-radius: .5rem;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(0, 155, 245);
+  cursor: pointer;
+}
+
+.delete-tag:hover {
+  background-color: red;
+}
+
+.tag span {
+  padding: 0;
+}
+
+.invisible {
+  display: none;
+}
+
+.disabled-title {
+  color: currentColor;
+  text-align: center;
+}
+
+.disabled-description {
+  color: currentColor;
+}
+
+.description-area {
+  overflow: scroll;
+  height: 200px;
+}
+
+.textarea-wrapper {
+  position: relative;
+  height: 200px;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+.textarea-wrapper span {
+  padding: 0;
+  color: rgba(0, 125, 215, 0);
+}
+
+.span-tag {
+  background-color: aqua;
+  border-radius: 25%;
+}
+
+.hashtag {
+  color: blue;
+  padding: 0;
+}

@@ -1,0 +1,24 @@
+.filter-tags {
+  width: 420px;
+  border: 2px solid black;
+}
+
+.filter-tags .tag:hover {
+  background-color: red;
+}
+
+.tags-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-by-tags-header {
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+.filter-by-tags-setting {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

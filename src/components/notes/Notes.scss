@@ -1,0 +1,13 @@
+.notes {
+  width: 420px;
+  padding: 0;
+  border: 2px solid black;
+}
+
+.note-wrapper {
+  padding: 0 5px;
+}
+
+li:nth-child(even) {
+  background-color: #5a5b86;
+}

@@ -1,0 +1,25 @@
+li {
+  list-style-type: none;
+}
+
+.current-note {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.note-description {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  padding-right: 20px;
+}
+
+.margin-for-button {
+  margin-left: 10px;
+}
